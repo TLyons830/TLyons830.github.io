@@ -257,3 +257,8 @@ footer {
     margin-right: auto;
 	display: block;	/* By specifying block display we can ensure our images are able to be centered */
 }
+
+#thanks {
+	color: rgb(1, 43, 34);
+	font-size: 20px;
+}

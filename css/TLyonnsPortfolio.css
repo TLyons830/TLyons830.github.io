@@ -191,6 +191,18 @@ input[type=text] { /* This covers the input sections of the contact form */
     font-family: Perpetua, Rockwell Extra Bold; 
 }
 
+input[type=email] { /* This covers the input sections of the contact form */
+	width: 100%;
+	padding: 12px;
+    border: 1px solid #ccc; /* We are setting a solid border and its colors */
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical; /* This specifies how an element is resized; vertical allows the user to resize the height of the element */
+    font-family: Perpetua, Rockwell Extra Bold; 
+}
+
 /* Submit button */
 input[type=submit] { /* This covers the submit button for the contact form */
 	background-color: rgb(1, 43, 34);

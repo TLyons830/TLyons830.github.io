@@ -83,14 +83,13 @@
 	
 		<div class="Column_1"> <!-- Contact form, right "column" -->
 			<h3 id="Contact">Contact</h3> 
-				<form action="" method="get"> <!-- This specifies where to send the form data and how; it is left blank -->
+				<form action="https://formspree.io/xrgypylg" method="POST"> <!-- This specifies where to send the form data and how; it is left blank -->
 					<label>Name:</label>
-						<input type="text" placeholder="Please enter your name here">
-					<label>Email:</label>
-						<input type="text" id="Email" name="Email" placeholder="Please enter your email here">
-					<label>Message:</label>
+						<input type="text" name="name" placeholder="Please enter your name here">
+					<label>Your Email:</label>
+						<input type="email" id="Email" name="_replyto">
 						<input type="text" id="Message" name="Message" placeholder="Please write your message here">
-						<input type="submit" onclick="submitResponse()" value="Submit">
+						<input type="submit" onclick="submitResponse()" value="Send">
 				</form>
 		</div>
 		<div><p7 id="thanks"></p7></div>
